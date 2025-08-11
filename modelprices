@@ -1,124 +1,116 @@
 {
-   "openai": {
-      "gpt-4o": {
-         "prompt": 0.0025,
-         "completion": 0.01
-      },
-      "gpt-4o-2024-08-06": {
-         "prompt": 0.0025,
-         "completion": 0.01
-      },
-      "gpt-4o-mini": {
-         "prompt": 0.00015,
-         "completion": 0.0006
-      },
-      "gpt-4o-mini-2024-07-18": {
-         "prompt": 0.00015,
-         "completion": 0.0006
-      },
-      "gpt-4-turbo": {
-         "prompt": 0.01,
-         "completion": 0.03
-      },
-      "gpt-4-turbo-2024-04-09": {
-         "prompt": 0.01,
-         "completion": 0.03
-      },
-      "gpt-4": {
-         "prompt": 0.03,
-         "completion": 0.06
-      },
-      "gpt-3.5-turbo-0125": {
-         "prompt": 0.0005,
-         "completion": 0.0015
-      },
-      "o1-pro": {
-         "prompt": 0.15,
-         "completion": 0.6
-      },
-      "o1": {
-         "prompt": 0.015,
-         "completion": 0.06
-      },
-      "o1-mini": {
-         "prompt": 0.003,
-         "completion": 0.012
-      }
+   "gpt-4o": {
+      "prompt": 0.0025,
+      "completion": 0.01
    },
-   "google": {
-      "gemini-2.5-pro": {
-         "prompt_tier1": 0.00125,
-         "completion_tier1": 0.01,
-         "prompt_tier2": 0.0025,
-         "completion_tier2": 0.015
-      },
-      "gemini-2.5-flash": {
-         "prompt_text": 0.0003,
-         "prompt_audio": 0.001,
-         "completion": 0.0025
-      },
-      "gemini-2.5-flash-lite": {
-         "prompt_text": 0.0001,
-         "prompt_audio": 0.0003,
-         "completion": 0.0004
-      },
-      "gemini-1.5-pro": {
-         "prompt_tier1": 0.00125,
-         "completion_tier1": 0.005,
-         "prompt_tier2": 0.0025,
-         "completion_tier2": 0.01
-      },
-      "gemini-1.5-flash": {
-         "prompt_tier1": 0.000075,
-         "completion_tier1": 0.0003,
-         "prompt_tier2": 0.00015,
-         "completion_tier2": 0.0006
-      },
-      "gemini-1.5-flash-8b": {
-         "prompt_tier1": 0.0000375,
-         "completion_tier1": 0.00015,
-         "prompt_tier2": 0.000075,
-         "completion_tier2": 0.0003
-      }
+   "gpt-4o-2024-08-06": {
+      "prompt": 0.0025,
+      "completion": 0.01
    },
-   "anthropic": {
-      "claude-4.1-opus": {
-         "prompt": 0.015,
-         "completion": 0.075
-      },
-      "claude-4-sonnet": {
-         "prompt": 0.003,
-         "completion": 0.015
-      },
-      "claude-3.5-haiku": {
-         "prompt": 0.0008,
-         "completion": 0.004
-      },
-      "claude-3-haiku": {
-         "prompt": 0.00025,
-         "completion": 0.00125
-      }
+   "gpt-4o-mini": {
+      "prompt": 0.00015,
+      "completion": 0.0006
    },
-   "perplexity": {
-      "sonar-pro": {
-         "prompt": 0.003,
-         "completion": 0.015
-      },
-      "sonar-reasoning-pro": {
-         "prompt": 0.002,
-         "completion": 0.008
-      },
-      "sonar": {
-         "prompt": 0.001,
-         "completion": 0.001
-      },
-      "sonar-reasoning": {
-         "prompt": 0.001,
-         "completion": 0.005
-      },
-      "sonar-deep-research": {
-         "prompt": 0.002,
-         "completion": 0.008
-      }
+   "gpt-4o-mini-2024-07-18": {
+      "prompt": 0.00015,
+      "completion": 0.0006
+   },
+   "gpt-4-turbo": {
+      "prompt": 0.01,
+      "completion": 0.03
+   },
+   "gpt-4-turbo-2024-04-09": {
+      "prompt": 0.01,
+      "completion": 0.03
+   },
+   "gpt-4": {
+      "prompt": 0.03,
+      "completion": 0.06
+   },
+   "gpt-3.5-turbo-0125": {
+      "prompt": 0.0005,
+      "completion": 0.0015
+   },
+   "o1-pro": {
+      "prompt": 0.15,
+      "completion": 0.6
+   },
+   "o1": {
+      "prompt": 0.015,
+      "completion": 0.06
+   },
+   "o1-mini": {
+      "prompt": 0.003,
+      "completion": 0.012
+   },
+   "gemini-2.5-pro": {
+      "prompt_tier1": 0.00125,
+      "completion_tier1": 0.01,
+      "prompt_tier2": 0.0025,
+      "completion_tier2": 0.015
+   },
+   "gemini-2.5-flash": {
+      "prompt_text": 0.0003,
+      "prompt_audio": 0.001,
+      "completion": 0.0025
+   },
+   "gemini-2.5-flash-lite": {
+      "prompt_text": 0.0001,
+      "prompt_audio": 0.0003,
+      "completion": 0.0004
+   },
+   "gemini-1.5-pro": {
+      "prompt_tier1": 0.00125,
+      "completion_tier1": 0.005,
+      "prompt_tier2": 0.0025,
+      "completion_tier2": 0.01
+   },
+   "gemini-1.5-flash": {
+      "prompt_tier1": 0.000075,
+      "completion_tier1": 0.0003,
+      "prompt_tier2": 0.00015,
+      "completion_tier2": 0.0006
+   },
+   "gemini-1.5-flash-8b": {
+      "prompt_tier1": 0.0000375,
+      "completion_tier1": 0.00015,
+      "prompt_tier2": 0.000075,
+      "completion_tier2": 0.0003
+   },
+   "claude-4.1-opus": {
+      "prompt": 0.015,
+      "completion": 0.075
+   },
+   "claude-4-sonnet": {
+      "prompt": 0.003,
+      "completion": 0.015
+   },
+   "claude-3.5-haiku": {
+      "prompt": 0.0008,
+      "completion": 0.004
+   },
+   "claude-3-haiku": {
+      "prompt": 0.00025,
+      "completion": 0.00125
+   },
+   "sonar-pro": {
+      "prompt": 0.003,
+      "completion": 0.015
+   },
+   "sonar-reasoning-pro": {
+      "prompt": 0.002,
+      "completion": 0.008
+   },
+   "sonar": {
+      "prompt": 0.001,
+      "completion": 0.001
+   },
+   "sonar-reasoning": {
+      "prompt": 0.001,
+      "completion": 0.005
+   },
+   "sonar-deep-research": {
+      "prompt": 0.002,
+      "completion": 0.008
    }
 }
